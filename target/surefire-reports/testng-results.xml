@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="161" started-at="2020-12-09T19:07:06Z" finished-at="2020-12-09T19:07:06Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="161" started-at="2020-12-09T19:07:06Z" finished-at="2020-12-09T19:07:06Z">
+      <class name="CalculatorTest">
+        <test-method status="PASS" signature="test1Multiply()[pri:0, instance:CalculatorTest@6cd8737]" name="test1Multiply" duration-ms="6" started-at="2020-12-09T19:07:06Z" finished-at="2020-12-09T19:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1Multiply -->
+        <test-method status="PASS" signature="test1Sum(int, int, int)[pri:0, instance:CalculatorTest@6cd8737]" name="test1Sum" duration-ms="0" started-at="2020-12-09T19:07:06Z" data-provider="sumData" finished-at="2020-12-09T19:07:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1Sum -->
+        <test-method status="PASS" signature="test1Sum(int, int, int)[pri:0, instance:CalculatorTest@6cd8737]" name="test1Sum" duration-ms="0" started-at="2020-12-09T19:07:06Z" data-provider="sumData" finished-at="2020-12-09T19:07:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1Sum -->
+        <test-method status="PASS" signature="test1Sum(int, int, int)[pri:0, instance:CalculatorTest@6cd8737]" name="test1Sum" duration-ms="1" started-at="2020-12-09T19:07:06Z" data-provider="sumData" finished-at="2020-12-09T19:07:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1Sum -->
+        <test-method status="PASS" signature="test2Multiply()[pri:0, instance:CalculatorTest@6cd8737]" name="test2Multiply" duration-ms="0" started-at="2020-12-09T19:07:06Z" finished-at="2020-12-09T19:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2Multiply -->
+      </class> <!-- CalculatorTest -->
+      <class name="factoryTests.Test4">
+        <test-method status="PASS" signature="test4()[pri:0, instance:factoryTests.Test4@4411d970]" name="test4" duration-ms="2" started-at="2020-12-09T19:07:06Z" finished-at="2020-12-09T19:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:factoryTests.Test4@6442b0a6]" name="test4" duration-ms="1" started-at="2020-12-09T19:07:06Z" finished-at="2020-12-09T19:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- factoryTests.Test4 -->
+      <class name="StringWorkerTest">
+        <test-method status="PASS" signature="client1Test(java.lang.Integer, java.lang.String)[pri:0, instance:StringWorkerTest@22f71333]" name="client1Test" duration-ms="1" started-at="2020-12-09T19:07:06Z" data-provider="client1" finished-at="2020-12-09T19:07:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[232]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- client1Test -->
+        <test-method status="PASS" signature="client1Test(java.lang.Integer, java.lang.String)[pri:0, instance:StringWorkerTest@22f71333]" name="client1Test" duration-ms="1" started-at="2020-12-09T19:07:06Z" data-provider="client1" finished-at="2020-12-09T19:07:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7778]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ytrewq]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- client1Test -->
+        <test-method status="PASS" signature="client2Test(java.lang.Integer, java.lang.String)[pri:0, instance:StringWorkerTest@22f71333]" name="client2Test" duration-ms="2" started-at="2020-12-09T19:07:06Z" data-provider="client2" finished-at="2020-12-09T19:07:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[five]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- client2Test -->
+        <test-method status="PASS" signature="client2Test(java.lang.Integer, java.lang.String)[pri:0, instance:StringWorkerTest@22f71333]" name="client2Test" duration-ms="2" started-at="2020-12-09T19:07:06Z" data-provider="client2" finished-at="2020-12-09T19:07:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[six]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- client2Test -->
+        <test-method status="PASS" signature="instanceDbProvider(int, java.lang.String)[pri:0, instance:StringWorkerTest@22f71333]" name="instanceDbProvider" duration-ms="1" started-at="2020-12-09T19:07:06Z" data-provider="getData" finished-at="2020-12-09T19:07:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[five]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instanceDbProvider -->
+        <test-method status="PASS" signature="instanceDbProvider(int, java.lang.String)[pri:0, instance:StringWorkerTest@22f71333]" name="instanceDbProvider" duration-ms="1" started-at="2020-12-09T19:07:06Z" data-provider="getData" finished-at="2020-12-09T19:07:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[six]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instanceDbProvider -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:StringWorkerTest@22f71333]" name="test1" duration-ms="0" started-at="2020-12-09T19:07:06Z" finished-at="2020-12-09T19:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- StringWorkerTest -->
+      <class name="factoryTests.Test1">
+        <test-method status="PASS" signature="test1()[pri:0, instance:factoryTests.Test1@edf4efb]" name="test1" duration-ms="26" started-at="2020-12-09T19:07:06Z" finished-at="2020-12-09T19:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:factoryTests.Test1@edf4efb]" name="test2" duration-ms="5" started-at="2020-12-09T19:07:06Z" finished-at="2020-12-09T19:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- factoryTests.Test1 -->
+      <class name="factoryTests.Test2">
+        <test-method status="PASS" signature="test22()[pri:0, instance:factoryTests.Test2@35f983a6]" name="test22" duration-ms="0" started-at="2020-12-09T19:07:06Z" finished-at="2020-12-09T19:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test22 -->
+        <test-method status="PASS" signature="test22()[pri:0, instance:factoryTests.Test2@60f82f98]" name="test22" duration-ms="1" started-at="2020-12-09T19:07:06Z" finished-at="2020-12-09T19:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test22 -->
+        <test-method status="PASS" signature="test22()[pri:0, instance:factoryTests.Test2@7f690630]" name="test22" duration-ms="0" started-at="2020-12-09T19:07:06Z" finished-at="2020-12-09T19:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test22 -->
+      </class> <!-- factoryTests.Test2 -->
+      <class name="factoryTests.Test5">
+        <test-method status="PASS" signature="test5()[pri:0, instance:factoryTests.Test5@6bf256fa]" name="test5" duration-ms="1" started-at="2020-12-09T19:07:06Z" finished-at="2020-12-09T19:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- factoryTests.Test5 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
